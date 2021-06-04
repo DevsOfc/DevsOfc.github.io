@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+:root {
+    --black: black;
+    --white: white;
+    --green: green;
+    --red: red;
+}
+
+body, html {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #001527;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

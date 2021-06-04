@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo-sembg.png" type="image/png" sizes="16x16">
+    <title>Devpolice - Api´s</title>
+    <meta name="description"
+        content="Devpolice é um robo para whatsapp com varias funções inedias para seu atendimento sem perda de qualidade.">
+    <meta property="og:image" content="https://guiguicdd1.github.io/botsystem-site/logo-combg.png">
+    <meta property="og:image:type" content="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" onload="getdata()">
+    <header>
+        <div class="vinteporcento">
+            <a href="https://guiguicdd1.github.io/botsystem-site/">
+                <img class="bot-log" src="./profile.png" alt="devpolcie"></a>
+            <h1>Devpolice</h1>
+        </div>
+        <div class="cinquentaporcento">
+            <h2>total de membros:</h2>
+            <p id="memberscount">---</p>
+        </div>
+        <input id="searchenumberinput" maxlength="30" type="number">
+        <button onclick="seachnumber(document.getElementById('searchenumberinput').value)"
+            class="pesquisar">Pesquisar</button>
+    </header>
+    <main class="main-left">
+        <div id="result2">
+            carregando...
+            <div id="a"></div>
+        </div>
+    </main>
+    <main class="main-right">
+        <div id="result-userprof"></div>
+    </main>
+    <footer>
+        <script src="scripts.js"></script>
+    </footer>
+</body>
+
+</html>

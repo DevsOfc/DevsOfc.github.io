@@ -1,0 +1,10 @@
+a {
+    padding: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background: #2196f3;
+    color: white;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
