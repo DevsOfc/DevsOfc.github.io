@@ -1,2 +1,1 @@
-# DevelopersCommunityOfficial.github.io
-Site
+# Developers Community Site
