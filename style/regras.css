@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+section#content div#capa {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 150px;   
+}
+
+section#content div#capa h1 {
+    font-size: 24px;
+}
+
+section#content div#capa p {
+    font-size: 20px;
+    color: #dddddd;
+    font-weight: 600;
+    width: 60%;
+}
+
+section#content div#regras {
+    width: 70%;
+}
+
+section#content div#regras div {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section#content div#regras h3 {
+    color: #0066FF;
+}
+
+section#content div#regras p {
+    color: #dddddd;
+    font-size: 18px;
+}
+
+section#content p#aviso {
+    color: #cc0e00;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}

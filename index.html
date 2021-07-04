@@ -1,34 +1,219 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang='pt-br'>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./assets/img/logosemfundo.png" type="image/png" sizes="32x32">
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title>Developers - Your Dev community</title>
-        <meta name="description"
-            content="Uma comunidade para desenvolvedores de sistemas que sejam dialogar sobre o assunto recorente.">
-        <!-- <meta property="og:image" content="https://developerscommunityofficial.github.io/botsystem-site/logo-combg.png"> -->
-        <meta property="og:image:type" content="image/png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./public/css/main.css">
+        <link rel='stylesheet' href='style/style.css'>
+        <link rel='stylesheet' href='style/index.css'>
+        <link rel='shortcut icon' href='media/icons/logosemfundo.png'>
+        <script src='functions/functions.js'></script>
     </head>
     <body>
-        <div id='content'>
-            <h1>Em breve...</h1>
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-            width="100" height="100"
-            viewBox="0 0 172 172"
-            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2196f3"><path d="M10.32,3.44c-3.79432,0 -6.88,3.08568 -6.88,6.88v41.28c0,3.79432 3.08568,6.88 6.88,6.88h134.16c3.79432,0 6.88,-3.08568 6.88,-6.88v-41.28c0,-3.79432 -3.08568,-6.88 -6.88,-6.88zM154.8,27.52v6.88v17.2v14.42515l-76.41235,16.61547c-1.5824,0.344 -2.70765,1.74257 -2.70765,3.35937v6.88h6.88v-4.10515l76.41235,-16.61547c1.57896,-0.344 2.70765,-1.74257 2.70765,-3.35937v-37.84c0,-1.89888 -1.53768,-3.44 -3.44,-3.44zM68.8,99.76c-3.79432,0 -6.88,3.08568 -6.88,6.88v55.04c0,3.79432 3.08568,6.88 6.88,6.88h20.64c3.79432,0 6.88,-3.08568 6.88,-6.88v-55.04c0,-3.79432 -3.08568,-6.88 -6.88,-6.88z"></path></g></g></svg>
-            <h2>Links rápidos</h2>
-            <a href="./devpolice/index.html">Devpolice</a>
-        </div>
+        <header>
+            <div id='logo'>
+                <a href='index.html'>
+                    <img id='icone'src='media/icons/logosemfundo.png'>
+                    <h1>Developers Community</h1>
+                </a>
+            </div>
+            <div id='menu'>
+                <nav>
+                    <ul>
+                        <a href='pages/eventos.html'><li><h2>Eventos</h2></li></a>
+                        <a href='pages/quem_somos.html'><li><h2>Quem somos</h2></li></a>
+                        <a href='pages/seja_membro.html'><li><h2>Seja membro</h2></li></a>
+                        <a href='pages/login.php'><li><h2>Login</h2></li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id='content'>
+            <div id='capa'>
+                <img src='media/images/neo.jpg'>
+                <div id='text'>
+                    <h3>console.log('Sua comunidade de desenvolvedores.')|</h3>
+                    <h1>Sua comunidade de desenvolvedores.</h1>
+                </div>
+            </div>
+            <div id='pass'>
+                <a href='index.html#title'><img src='media/icons/down.png' id='down'></a>
+            </div>
+            <div id='title'>
+                    <h2 id='title_text'>Conheça a comunidade</h2>
+            </div>
+            <div id='sect01' class='part_right'>
+                <div class='intern'>
+                    <div class='text'>
+                        <h1>Troque conhecimentos</h1>
+                        <p>O lugar perfeito para você aprender mais e descobrir as tecnologias que o mundo está utilizando. Uma comunidade de desenvolvedores que abrange todo o conteúdo de TI.</p>
+                    </div> 
+                    <img src='media/svg/day_off.svg' class='svg_commom'>
+                </div>
+            </div>
+            <div id='sect02' class='part_left'>
+                <div class='intern'>
+                    <img src='media/svg/group_video.svg' class='svg_commom'>
+                    <div class='text'>
+                        <h1>Aprenda mais</h1>
+                        <p>Através de chamadas e transmissões você pode ensinar algo ou aprender coisas novas com os desenvolvedores mais experientes da comunidade.</p>
+                    </div>
+                </div>
+            </div>
+            <div id='data_com'>
+                <div id='meio'>
+                    <div id='center'>
+                        <h1>600+</h1>
+                        <p>Devs são membros da nossa comunidade.</p>
+                    </div>
+                    <div id='aside'>
+                        <h1>Suporte da comunidade</h1>
+                        <p>Vários desenvolvedores interessados que poderão te ajudar a conhecer novas ferramentas, encontrar conteúdos e resolver bugs do seu código.</p>
+                    </div>
+                </div>
+            </div>
+            <div id='sect03' class='part_right'>
+                <div class='intern'>
+                    <div class='text'>
+                        <h1>Participe de torneios</h1>
+                        <p>Sempre criamos competições de programação, em que os membros podem participar e desenvolver sistemas usando as tecnologias que quiserem.</p>
+                        <div id='text_img'>
+                            <h2>Com premiações em dinheiro!</h2>
+                            <img src='media/icons/trophy.png'>
+                        </div>
+                    </div>
+                    <img src='media/svg/winners.svg' class='svg_commom'>
+                </div>
+            </div>
+            <div id='sect_tech'>
+                <svg viewBox="0 0 1366 200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="1366" height="200" fill="white"/>
+                    <rect width="1366" height="200" fill="#0066FF"/>
+                    <rect x="994" y="20" width="60" height="60" fill="url(#pattern0)"/>
+                    <rect x="994" y="140" width="60" height="60" fill="url(#pattern1)"/>
+                    <rect x="760" y="140" width="60" height="60" fill="url(#pattern2)"/>
+                    <rect x="1345" y="-40" width="60" height="60" fill="url(#pattern3)"/>
+                    <rect x="1228" y="140" width="60" height="60" fill="url(#pattern4)"/>
+                    <rect x="877" y="80" width="60" height="60" fill="url(#pattern5)"/>
+                    <rect x="1111" y="80" width="60" height="60" fill="url(#pattern6)"/>
+                    <rect x="877" y="-40" width="60" height="60" fill="url(#pattern7)"/>
+                    <rect x="1111" y="-40" width="60" height="60" fill="url(#pattern8)"/>
+                    <rect x="1228" y="20" width="60" height="60" fill="url(#pattern9)"/>
+                    <rect x="409" y="80" width="60" height="60" fill="url(#pattern10)"/>
+                    <rect x="58" y="20" width="60" height="60" fill="url(#pattern11)"/>
+                    <rect x="58" y="140" width="60" height="60" fill="url(#pattern12)"/>
+                    <rect x="643" y="-40" width="60" height="60" fill="url(#pattern13)"/>
+                    <rect x="409" y="-40" width="60" height="60" fill="url(#pattern14)"/>
+                    <rect x="292" y="140" width="60" height="60" fill="url(#pattern15)"/>
+                    <rect x="526" y="140" width="60" height="60" fill="url(#pattern16)"/>
+                    <rect x="175" y="80" width="60" height="60" fill="url(#pattern17)"/>
+                    <rect x="175" y="-40" width="60" height="60" fill="url(#pattern18)"/>
+                    <rect x="292" y="20" width="60" height="60" fill="url(#pattern19)"/>
+                    <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0" transform="scale(0.01)"/>
+                    </pattern>
+                    <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0" transform="scale(0.01)"/>
+                    </pattern>
+                    <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image1" transform="scale(0.0111111)"/>
+                    </pattern>
+                    <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image1" transform="scale(0.0111111)"/>
+                    </pattern>
+                    <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image2" transform="scale(0.015625)"/>
+                    </pattern>
+                    <pattern id="pattern5" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image2" transform="scale(0.015625)"/>
+                    </pattern>
+                    <pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image3" transform="scale(0.0104167)"/>
+                    </pattern>
+                    <pattern id="pattern7" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image2" transform="scale(0.015625)"/>
+                    </pattern>
+                    <pattern id="pattern8" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image3" transform="scale(0.0104167)"/>
+                    </pattern>
+                    <pattern id="pattern9" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image2" transform="scale(0.015625)"/>
+                    </pattern>
+                    <pattern id="pattern10" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image1" transform="scale(0.0111111)"/>
+                    </pattern>
+                    <pattern id="pattern11" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0" transform="scale(0.01)"/>
+                    </pattern>
+                    <pattern id="pattern12" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0" transform="scale(0.01)"/>
+                    </pattern>
+                    <pattern id="pattern13" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0" transform="scale(0.01)"/>
+                    </pattern>
+                    <pattern id="pattern14" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image1" transform="scale(0.0111111)"/>
+                    </pattern>
+                    <pattern id="pattern15" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image2" transform="scale(0.015625)"/>
+                    </pattern>
+                    <pattern id="pattern16" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image3" transform="scale(0.0104167)"/>
+                    </pattern>
+                    <pattern id="pattern17" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image3" transform="scale(0.0104167)"/>
+                    </pattern>
+                    <pattern id="pattern18" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image3" transform="scale(0.0104167)"/>
+                    </pattern>
+                    <pattern id="pattern19" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image2" transform="scale(0.015625)"/>
+                    </pattern>
+                    <image id="image0" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                    <image id="image1" width="90" height="90" xlink:href="data:image/png;base64,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"/>
+                    <image id="image2" width="64" height="64" xlink:href="data:image/png;base64,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"/>
+                    <image id="image3" width="96" height="96" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                </svg>
+                <div id='texto'>
+                    <div id='texto02'>
+                        <h1>Torne-se um membro!</h1>
+                        <a href='seja_membro.html' id='button'><div id='button_content'><p>Seja membro!</p></div></a>
+                    </div>
+                </div>                       
+            </div>
+            <div id='sect04' class='part_left'>
+                <div class='intern'>
+                    <img src='media/svg/developer_activity.svg' class='svg_commom'>
+                    <div class='text'>
+                        <h1>Descubra de projetos</h1>
+                        <p>Encontre novos projetos open-source criados pelos membros da comunidade. Você pode divulgar o seu projeto para o grande público e receber apoio forte e contínuo.</p>
+                    </div>
+                </div>
+            </div>
+            <div id='sect_image'>
+                <div class='intern'>
+                    <img src='media/images/mulher.jpg'>
+                    <div class='text'>
+                        <h1>O mundo ao seu alcance com uma comunidade internacional de desenvolvedores.</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer>
-            <script src="./public/js/core.js"></script>
+            <div id='rodape'>
+                <div id='github'>
+                    <a href='https://github.com/DevsOfc' target='_blank'>   
+                        <img id='git' src='media/icons/github.png'>
+                        <p>GitHub</p>
+                    </a>
+                </div>
+                <div id='direitos'>
+                    <p>Copyright 2021 Developers Community Official. Todos os direitos reservados.</p>
+                </div>
+            </div>
         </footer>
     </body>
-
-    
-
 </html>

@@ -1,0 +1,116 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Configurações gerais*/
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    background-color: #15191F;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Header 'Cabecalho'*/
+
+header {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+header div#logo {
+    margin-left: 30px;
+}
+
+header div#logo a {
+    display: flex;
+    align-content: center;
+}
+
+header div#logo img#icone {
+    width: 50px;
+    height: 50px;
+}
+
+header div#logo h1 {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+header div#menu {
+    position: absolute;
+    right: 20px;
+}
+
+header div#menu ul {
+    list-style: none;
+}
+
+header div#menu li {
+    display: inline;
+    margin: 10px;
+}
+
+header div#menu h2 {
+    display: inline;
+    font-weight: 600px;
+    font-size: 14px;
+}
+
+header div#menu h2:hover {
+    color: #006FFF;
+    transition: 0.3s;
+}
+
+/* Footer 'Rodape'*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+footer div#github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 30px;
+}
+
+footer div#github a {
+    display: flex;
+    align-items: center;
+}
+
+footer div#github img#git {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+footer div#github p {
+    display: flex;
+    margin-left: 5px;
+}
+
+footer div#direitos {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+footer div#rodape p {
+    font-size: 14px;
+}

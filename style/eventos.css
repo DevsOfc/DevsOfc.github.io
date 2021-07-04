@@ -1,0 +1,75 @@
+@charset 'utf-8';
+
+section#content div#capa {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+section#content div#capa img {
+    width: 400px;
+}
+
+section#content div#capa div#text {
+    width: 50%;
+}
+
+section#content div#capa div#text h1 {
+    font-size: 30px;
+}
+
+section#content div#capa div#text p {
+    font-size: 20px;
+    color: #bbbbbb;
+    font-weight: 600;
+}
+
+section#content div#eventos {
+    width: 100%;
+}
+
+section#content div#eventos h1 {
+    margin: auto;
+    width: 100px;
+    margin-bottom: 100px;
+    color: #006FFF;
+}
+
+section#content div#eventos div#tipos {
+    display: flex;
+    justify-content: space-around;   
+}
+
+section#content div#eventos div#tipos div.center {
+    width: 230px;
+    height: 300px;
+    background-color: #292D33;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+section#content div#eventos div#tipos div.center h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+section#content div#eventos div#tipos div.center img {
+    width: 100px;
+    margin: 60px 65px 60px 65px;
+
+}
+
+section#content div#eventos div#tipos div.center h3 {   
+    position: relative;
+    bottom: 20px;
+    width: 70px;
+    margin: auto;
+    color: #006FFF;
+}

@@ -1,0 +1,269 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+section#content div#capa img {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+section#content div#capa h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+section#content div#capa h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+section#content div#capa div#text {
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+div#pass {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+div#pass img#down {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+div#title {
+    display: flex;
+    justify-content: center;
+    background-color: #15191F;
+    box-shadow: 0px -30px 40px 30px #15191F;
+}
+
+div#title h2#title_text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0094FF;
+}
+
+section#content {
+    width: 100%;
+}
+
+section#content img.svg_commom {
+    width: 300px;
+}
+
+section#content div.part_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section#content div.part_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section#content div.part_right h1 {
+    font-weight: 600;
+}
+
+section#content div.part_left h1 {
+    font-weight: 600;
+}
+
+section#content div.part_right div.intern img.svg_commom {
+    display: block;
+    float: right;
+    margin: 50px;
+}
+
+section#content div.part_left div.intern img.svg_commom {
+    display: block;
+    float: left;
+    margin: 50px;
+}
+
+section#content div.part_left div.intern {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#content div.part_right div.intern {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#content div.part_left div.intern div.text {
+    display: block;
+    float: right;
+    width: 60%;
+}
+
+section#content div.part_right div.intern div.text {
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+section#content div#sect01 {
+    height: 400px;
+    background-color: #15191F;
+} 
+
+section#content div#sect02 {
+    height: 400px;
+    background-color: #292D33;
+}
+
+section#content div#data_com {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px; 
+    width: 100%;
+}
+
+section#content div#data_com div#meio {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+section#content div#data_com div#center {
+    background-color: #292D33;
+    padding: 40px;
+    width: 20%;
+    height: 200px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+section#content div#data_com div#center h1 {
+    color: #0094FF;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    width: 50px;
+}
+
+section#content div#data_com div#aside {
+    background-color: #292D33;
+    padding: 40px;
+    width: 40%;
+    height: 200px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+section#content div#data_com div#aside h1 {
+    color: #0094FF;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+section#content div#sect03 {
+    height: 400px;
+    background-color: #e5e5e5;
+    color: #404040;
+}
+
+section#content div#sect04 {
+    height: 400px;
+}
+
+section#content div#sect03 h1 {
+    color: #1F2226;
+}
+
+section#content div#sect03 div.text img {
+    width: 30px;
+}
+
+section#content div#sect03 div.text div#text_img {
+    display: flex;
+    align-items: center;
+}
+
+section#content div#sect_tech {
+    width: 100%;
+    height: 200px;
+}
+
+section#content div#sect_tech svg{
+    width: 100%;
+    height: 200px;
+}
+
+section#content div#sect_tech div#texto {
+    width: 100%;
+}
+
+section#content h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+section#content p {
+    font-size: 18px;
+}
+
+section#content h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+section#content div#sect_tech a#button div#button_content{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e5e5;border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    margin: auto;
+}
+
+section#content div#sect_tech a#button p {
+    color: #1F2226;
+    margin: auto;
+    font-weight: 600;
+}
+
+section#content div#sect_tech div#texto {
+    position: relative;
+    top: -170px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+
+section#content div#sect_image img {
+    width: 100%;
+}
+
+section#content div#sect_image div.intern {
+    max-height: 768px;
+}
+
+section#content div#sect_image div.text {
+    position: relative;
+    top: -300px;
+    left: 70px;
+    width: 40%;
+}
+
+section#content div#sect_image div.text h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #000000;
+}
